@@ -7,7 +7,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <form action="proses.php" enctype="multipart/form-data">
+        <form action="proses.php" method="POST" enctype="multipart/form-data">
             <input type="file" name="data">
             <button type="submit">PROSES</button>
         </form>
